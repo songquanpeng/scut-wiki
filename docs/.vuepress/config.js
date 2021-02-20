@@ -3,10 +3,14 @@ module.exports = {
   base: '/',
   title: '华南理工大学 Wiki',
   description: '非官方 WIKI',
-  keywords: "",
+  keywords: "华南理工大学，wiki，百科，SCUT，scut，South China University of Technology，华工",
   themeConfig: {
     sidebarDepth: 2,
     smoothScroll: true,
+    repo: 'songquanpeng/scut-wiki',
+    editLinks: true,
+    editLinkText: '编辑本页面',
+    docsDir: 'docs',
     lastUpdated: '上次更新',
     nav: [
       {
@@ -18,21 +22,17 @@ module.exports = {
         link: '/life/'
       },
       {
-        text: '研究',
-        link: '/research/'
-      },
-      {
         text: '学习',
         link: '/study/'
       },
       {
-        text: '关于',
-        link: '/about/'
+        text: '其他',
+        link: '/others/'
       },
       {
-        text: 'Github',
-        link: 'https://github.com/songquanpeng/scut-wiki'
-      },
+        text: '关于',
+        link: '/about/'
+      }
     ],
     sidebar: {
       "/study/": [
@@ -57,7 +57,13 @@ module.exports = {
         {
           title: '通用',
           path: '/life/通用/',
-          collapsable: true
+          collapsable: true,
+          children:[
+            {
+              title: '校园网',
+              path:'/life/通用/校园网'
+            }
+          ]
         },
         {
           title: '五山校区',

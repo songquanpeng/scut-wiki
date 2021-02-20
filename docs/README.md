@@ -2,7 +2,7 @@
 home: true
 heroImage: /scut.png
 heroText: 华南理工大学 Wiki
-tagline: 致力于帮助同学们在华工更好地学习生活，
+tagline: 致力于帮助同学们在华工更好地学习生活
 actionText: 开始阅读
 actionLink: /life/
 features:
@@ -15,5 +15,6 @@ features:
 footer: MIT Licensed | Copyright © 2021 JustSong
 ---
 
+本 wiki 站正在处于早期构建阶段中，需要大家的帮助。
 
-本站正在构建中，敬请期待！
+请有意者加入 [QQ 群](https://qm.qq.com/cgi-bin/qm/qr?k=UkJCphgP8mnV5G4xSK57pMW800AT8vdH&jump_from=webapi)。
