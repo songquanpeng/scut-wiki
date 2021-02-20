@@ -10,6 +10,7 @@ jobs:
           persist-credentials: false
       - name: Install and Build 🔧
         run: |
+          sudo timedatectl set-timezone "Asia/Shanghai"
           yarn install
           yarn build
       - name: Deploy 🚀
