@@ -1,0 +1,23 @@
+{
+  "name": "scut-wiki",
+  "version": "0.1.0",
+  "description": "",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/songquanpeng/scut-wiki.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/songquanpeng/scut-wiki/issues"
+  },
+  "homepage": "https://github.com/songquanpeng/scut-wiki#readme",
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  }
+}
