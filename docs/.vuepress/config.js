@@ -1,6 +1,14 @@
 module.exports = {
   dest: "build",
   base: '/',
+  plugins: [
+    [
+      '@vuepress/google-analytics',
+      {
+        'ga': 'UA-141101198-7' // UA-00000000-0
+      }
+    ]
+  ],
   title: '华南理工大学 Wiki',
   description: '非官方 WIKI',
   keywords: "华南理工大学，wiki，百科，SCUT，scut，South China University of Technology，华工",
