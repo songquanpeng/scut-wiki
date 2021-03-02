@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /scut.png
+heroImage: /scut.jpg
 heroText: 华南理工大学 Wiki
 tagline: 致力于帮助同学们在华工更好地学习生活
 actionText: 开始阅读
