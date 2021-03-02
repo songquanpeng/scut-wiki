@@ -11,6 +11,8 @@ jobs:
       - name: Install and Build 🔧
         run: |
           sudo timedatectl set-timezone "Asia/Shanghai"
+          git config user.name "Github Action"
+          git config user.email "action@github.com"
           yarn install
           yarn build
       - name: Deploy 🚀
